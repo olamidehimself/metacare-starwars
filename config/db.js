@@ -1,4 +1,4 @@
-const {Sequelize} = require('moment');
+const {Sequelize} = require('sequelize');
 const DB_HOST = process.env.DB_HOST
 const DB_PASSWORD = process.env.DB_PASSWORD
 const DB_USERNAME = process.env.DB_USERNAME
