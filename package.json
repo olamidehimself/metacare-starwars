@@ -1,0 +1,20 @@
+{
+  "name": "metacare-test",
+  "version": "1.0.0",
+  "description": "A test evalution for Metacare interview process",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "author": "OlamideHimself",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
