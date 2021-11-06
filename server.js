@@ -6,8 +6,10 @@ connectDB();
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+// app.set()
 
 app.use('/api/movies', require('./routes/movies'));
+app.use('/api/characters', require('./routes/characters'));
 
 const port = process.env.PORT || 4001;
 
