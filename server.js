@@ -7,7 +7,7 @@ connectDB();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use('/api/movies', require('/routes/movies'));
+app.use('/api/movies', require('./routes/movies'));
 
 const port = process.env.PORT || 4001;
 
